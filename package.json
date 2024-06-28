@@ -1,0 +1,11 @@
+{
+  "name": "estudos-algoritmos",
+  "version": "1.0.0",
+  "description": "projeto para estudo de algoritmos",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC"
+}
