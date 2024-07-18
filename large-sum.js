@@ -100,11 +100,21 @@ const numbers = [
     "20849603980134001723930671666823555245252804609722",
     "53503534226472524250874054075591789781264330331690"];
 
-function getDigits(numbers) { }
+function bigSum(numbers) {
+    var sum = BigInt(0);
+    for (let i = 0; i < numbers.length; i++) {
+        sum += BigInt(numbers[i]);
+    } return sum;
+}
 
 
 
-function main() { }
+function main() {
+    var sum = bigSum(numbers);
+    var sumTxt = sum.toString();
+    var result = sumTxt.slice(0, 10);
+    console.log(result);
+}
 
 
 
